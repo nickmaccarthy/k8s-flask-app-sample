@@ -13,6 +13,6 @@ build-local:
 	docker push $(DOCKER_IMAGE)
 
 deploy-local:
-	@ansible-playbook kubernetes/kube.deployment.playbook.yml 
+	@ansible-playbook _kubernetes/kube.deployment.playbook.yml 
 
 default: build-local 
