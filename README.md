@@ -1,7 +1,7 @@
 # K8S Flask App Sample
-The purpose of this repository is to demonstrate the building and deployment of a simple Flask based application to a Kubernetes cluster.  This is meant to emulate any microservice type code base, such as maybe something in NodeJS.
+The purpose of this repository is to demonstrate the building and deployment of a simple Flask based application to a Kubernetes cluster.  This is meant to emulate any microservice type code base, such as maybe something in NodeJS, golang etc.
 
-The `kubernetes` directory came from a git clone of [ansible-kubernetes-deployment-sample](https://github.com/nickmaccarthy/ansible-kubernetes-deployment-sample).  Check out that repo for more infomation on the nuts and bolts on how we are using Ansible to deploy this app to Kubernetes.
+The `_kubernetes` directory came from a git clone of [ansible-kubernetes-deployment-sample](https://github.com/nickmaccarthy/ansible-kubernetes-deployment-sample).  Check out that repo for more infomation on the nuts and bolts on how we are using Ansible to deploy this app to Kubernetes.
 
 # Requirements
 * Ansible 2.6+
